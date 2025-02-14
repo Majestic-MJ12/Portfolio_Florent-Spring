@@ -1,0 +1,59 @@
+/* mentions-legales.css */
+
+/* Style the language toggle button */
+#languageToggle {
+    background-color: #1515af;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+#languageToggle span {
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    /* Retirez le background dégradé et l'animation ici */
+    background-color: #f0f0f0;
+    /* Ou une autre couleur de fond claire */
+}
+
+section {
+    padding: 40px;
+    margin: 30px auto;
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* Retirez l'opacité et la transformation ici */
+}
+
+h2 {
+    color: #1515af;
+    font-family: 'Roboto', serif;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+h3 {
+    color: #1515af;
+    font-family: 'Roboto', serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+p {
+    margin-bottom: 15px;
+}
