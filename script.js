@@ -4,12 +4,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const navUl = document.querySelector('nav ul');
     const sections = document.querySelectorAll('.section');
 
-    // --- Hamburger Menu ---
     hamburgerMenu.addEventListener('click', function () {
         navUl.classList.toggle('active');
     });
 
-    // --- Intersection Observer for Sections ---
     const sectionObserver = new IntersectionObserver(
         (entries, observer) => {
             entries.forEach(entry => {
@@ -21,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         },
         {
-            threshold: 0.2 // Adjust as needed (0.0 to 1.0, percentage of element visible)
+            threshold: 0.2
         }
     );
 
@@ -29,7 +27,6 @@ document.addEventListener('DOMContentLoaded', function () {
         sectionObserver.observe(section);
     });
 
-    // --- Back to Top Button ---
     function checkScroll() {
         let scrollPosition = window.scrollY || document.documentElement.scrollTop;
         if (scrollPosition > 20) {
@@ -50,7 +47,6 @@ document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener('scroll', checkScroll);
     checkScroll();
 
-    // --- Language Toggle ---
     const languageToggle = document.getElementById('languageToggle');
     languageToggle.addEventListener('click', function () {
         const frElements = document.querySelectorAll('.fr');

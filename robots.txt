@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://majestic-mj12.github.io/Portfolio_Florent-SPRING/index.html
+Sitemap: https://majestic-mj12.github.io/Portfolio_Florent-Spring/
