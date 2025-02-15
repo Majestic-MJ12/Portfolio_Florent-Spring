@@ -1,3 +1,40 @@
+/* mention-légales.css */
+
+/* General Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+/* Heading Styles */
+h2 {
+    color: #1515af;
+}
+
+h3 {
+    color: #1515af;
+}
+
+/* Link Styles */
+a {
+    text-decoration: none;
+}
+
+/* Section Styles */
+section {
+    padding: 40px;
+    margin: 30px auto;
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Language Toggle Styles */
 #languageToggle {
     background-color: #1515af;
     color: #fff;
@@ -15,40 +52,15 @@
     font-weight: bold;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    line-height: 1.6;
-    background-color: #f0f0f0;
-}
-
-section {
-    padding: 40px;
-    margin: 30px auto;
-    max-width: 900px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    color: #1515af;
-}
-
-h3 {
-    color: #1515af;
-}
-
+/* Return Button Styles */
 #buttonContainer {
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
 }
 
 #returnButton {
     background-color: #1515af;
-    border: none; 
+    border: none;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -61,13 +73,10 @@ h3 {
 }
 
 #returnButton:hover {
-   background-color: #0d0d7a;
+    background-color: #0d0d7a;
 }
 
-a {
-   text-decoration: none;
-}
-
+/* Language Display Styles */
 .fr {
     display: block;
 }
