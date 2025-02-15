@@ -1,5 +1,4 @@
 // script-mentions-legales.js
-
 document.addEventListener('DOMContentLoaded', function () {
 
     // --- Element Selector ---
